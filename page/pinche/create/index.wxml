@@ -1,0 +1,55 @@
+<view class="container" >
+    
+    <form bindsubmit="formSubmit" bindreset="formReset" class="formCreate">
+
+        <view class="section">
+            <view class="section__title" style="padding-right:30px">出发地 : </view>
+            <picker class="locationPicker" bindchange="bindDepartureChange" value="{{depIndex}}" range="{{location}}">
+                <view class="picker">
+                    {{location[depIndex]}}
+                </view>
+            </picker>
+        </view>
+        <view class="section">
+            <view class="section__title" style="padding-right:30px">目的地 :</view>
+            <picker class="locationPicker" bindchange="bindDestinationChange" value="{{desIndex}}" range="{{location}}">
+                <view class="picker">
+                    {{location[desIndex]}}
+                </view>
+            </picker>
+        </view>
+        <view class="section">
+            <view class="section__title">出发日期 :</view>
+            <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" class="dataPicker" bindchange="bindDateChange" >
+                <view class="picker">
+                    {{date}}
+                </view>
+            </picker>
+        </view>
+        <view class="section">
+            <view class="section__title">发车时间 :</view>
+            <picker class="timePicker" mode="time" value="{{time}}" start="00:00" end="23:59" bindchange="bindTimeChange">
+                <view class="picker">
+                    {{time}}
+                </view>
+            </picker>
+        </view>
+        <view class="section">
+            <view class="section__title" >乘客人数 :</view>
+            <picker class="numberPicker" bindchange="bindNumberChange" value="{{numIndex}}" range="{{number}}">
+                <view class="picker">
+                    {{number[numIndex]}}
+                </view>
+            </picker>
+        </view>
+
+        <view class="button-group">
+            <button type="primary" class="bt1">创建</button>
+            <button type="default" class="bt2">重填</button>
+        </view>
+    </form>
+    <view class="page-footer">
+        Copyright © 2016 校园拼
+    </view>
+
+</view>

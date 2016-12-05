@@ -1,0 +1,63 @@
+<!--index.wxml-->
+<view class="page">
+    <view class="page__bd">
+        <view class="section section_gap swiper">
+            <swiper indicator-dots="{{indicatorDots}}" vertical="{{vertical}}"
+                    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class="swiper">
+                <block wx:for="{{imgUrls}}">
+                    <swiper-item>
+                        <image src="{{item}}" class="swiper-item"/>
+                        
+                    </swiper-item>
+                </block>
+            </swiper>
+        </view>
+
+        <view class="btn-area">
+            <navigator url="create/index" hover-class="navigator-hover">
+            <button type="primary" > 新建拼车 </button>
+            </navigator>
+        </view>
+
+        <view class="roomList">
+            <view classs="roomListSection">
+                <image class="roomListIcon" src="../../image/destination/cumt.png" />
+                <view class="roomListTextView">
+                    <text class="roomListTextTitle">一起回学校,还差一人</text>
+                    <text class="roomListTextSubtitle">12月7日17:40</text>
+                    <progress percent="75" show-info />
+                </view>
+                <button type="primary" class="roomListJoinBt"> 加入 </button>
+            </view>
+            <view classs="roomListSection">
+                <image class="roomListIcon" src="../../image/destination/railway.png" />
+                <view class="roomListTextView">
+                    <text class="roomListTextTitle">去火车站，求拼</text>
+                    <text class="roomListTextSubtitle">12月7日19:40</text>
+                    <progress percent="25" show-info />
+                </view>
+                <button type="primary" class="roomListJoinBt"> 加入 </button>
+            </view>
+            <view classs="roomListSection">
+                <image class="roomListIcon" src="../../image/destination/cumt.png" />
+                <view class="roomListTextView">
+                    <text class="roomListTextTitle">8号中午回学校</text>
+                    <text class="roomListTextSubtitle">12月7日19:40</text>
+                    <progress percent="50" show-info />
+                </view>
+                <button type="primary" class="roomListJoinBt"> 加入 </button>
+            </view>
+            <view classs="roomListSection">
+                <image class="roomListIcon" src="../../image/destination/hs-railway.png" />
+                <view class="roomListTextView">
+                    <text class="roomListTextTitle">8号晚上9点去高铁站</text>
+                    <text class="roomListTextSubtitle">12月7日19:40</text>
+                    <progress percent="25" show-info />
+                </view>
+                <button type="primary" class="roomListJoinBt"> 加入 </button>
+            </view>
+        </view>
+    </view>
+
+</view>
+

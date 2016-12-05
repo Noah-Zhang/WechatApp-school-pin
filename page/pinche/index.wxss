@@ -1,0 +1,47 @@
+/**index.wxss**/
+
+.swiper-item{
+  display: block;
+  width: 375px;
+}
+.swiper{
+  height: 200px;
+}
+
+
+.roomList{
+  padding-left: 20px;
+}
+
+.destinationText{
+  display: inline-block;
+  text-align: center;
+}
+.roomListTextView{
+  display: inline-block;
+  padding: 0 8px;
+  width: 200px;
+}
+.roomListTextTitle{
+  display: block;
+  font-size: 20px;
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.roomListTextSubtitle{
+  padding-left:100px;
+}
+
+.roomListJoinBt{
+  display: inline-block;
+}
+
+.roomListSection{
+
+}
+
+.roomListIcon{
+  width: 60px;
+  height: 60px;
+}

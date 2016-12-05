@@ -1,0 +1,27 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height:100%;
+}
+
+.firstContainer{
+    padding-left: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #ffffff;
+}
+.secondContainer{
+    margin-top: 30px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    background-color: #ffffff;
+}
+
+.hr{
+    background-color: #000000;
+    height: 1px;
+    margin-top: 4px; 
+    margin-bottom: 4px; 
+}

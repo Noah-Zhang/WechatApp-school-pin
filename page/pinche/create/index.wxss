@@ -1,0 +1,47 @@
+.formCreate{
+    margin-top: 50px;
+}
+
+.newForm{
+    padding-top: 40px;
+}
+
+.section__title{
+    display: inline-block;
+    padding-left: 20px;
+}
+.locationPicker{
+    display: inline-block;
+    width: 242px;
+}
+.dataPicker{
+    display: inline-block;
+    width: 238px;
+}
+.timePicker{
+    display: inline-block;
+    width: 238px;
+}
+.numberPicker{
+    display: inline-block;
+    width: 238px;
+}
+.picker{
+    padding: 13px;
+    background-color: #FFFFFF;
+}
+
+.button-group{
+    margin-top: 60px;
+}
+
+.bt1{
+    display: inline-block;
+    margin-left: 80px;
+    width: 100px;
+}
+.bt2{
+    display: inline-block;
+    margin-left: 20px;
+    width: 100px;
+}

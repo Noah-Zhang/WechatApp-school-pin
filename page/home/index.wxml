@@ -1,0 +1,79 @@
+<view class="container">
+    <view class="mainContainer">
+        <view class="firstContainer">
+            <view class="avatar">
+                <image style="width: 60px; height: 60px;" src="../../image/avatar.jpg">
+                </image>
+                <view style="display:inline-block;padding-left:20px;position:absolute">
+                    <view style="font-size:20px;padding-top:10px;">
+                        <text>Noah_Zhang</text>
+                    </view>
+                    <view style="font-size:14px;padding-top:8px;">
+                        <text>微信号：zby787485326</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="secondContainer">
+            <view class="rowItem">
+                <image style="width: 30px; height: 30px;" src="../../image/zuixindongtai.png"></image>
+                <view style="display:inline-block;padding-left:14px;position:absolute;padding-top:6px;">
+                    <text>最近拼车</text>
+                </view>
+            </view>
+            <view class="hr">
+            </view>
+            <view class="rowItem">
+                <image style="width: 30px; height: 30px;" src="../../image/like.png"></image>
+                <view style="display:inline-block;padding-left:14px;position:absolute;padding-top:6px;">
+                    <text>好评司机</text>
+                </view>
+            </view>
+            <view class="hr">
+            </view>
+            <view class="rowItem">
+                <image style="width: 30px; height: 30px;" src="../../image/user.png"></image>
+                <view style="display:inline-block;padding-left:14px;position:absolute;padding-top:6px;">
+                    <text>拼车好友</text>
+                </view>
+            </view>
+            <view class="hr">
+            </view>
+            <view class="rowItem">
+                <image style="width: 30px; height: 30px;" src="../../image/star.png"></image>
+                <view style="display:inline-block;padding-left:14px;position:absolute;padding-top:6px;">
+                    <text>收藏夹</text>
+                </view>
+            </view>
+        </view>
+        <view class="secondContainer">
+            <view class="rowItem">
+                <image style="width: 30px; height: 30px;" src="../../image/dog.png"></image>
+                <view style="display:inline-block;padding-left:14px;position:absolute;padding-top:6px;">
+                    <text>问题反馈</text>
+                </view>
+            </view>
+            <view class="hr">
+            </view>
+            <view class="rowItem">
+                <image style="width: 30px; height: 30px;" src="../../image/hezuo.png"></image>
+                <view style="display:inline-block;padding-left:14px;position:absolute;padding-top:6px;">
+                    <text>关于我们</text>
+                </view>
+            </view>
+        </view>
+
+        <view class="secondContainer">
+            <view class="rowItem">
+                <image style="width: 30px; height: 30px;" src="../../image/settings.png"></image>
+                <view style="display:inline-block;padding-left:14px;position:absolute;padding-top:6px;">
+                    <text>设置</text>
+                </view>
+            </view>
+        </view>
+        
+    </view>
+    <view class="page-footer">
+        Copyright © 2016 校园拼
+    </view>
+</view>

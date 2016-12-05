@@ -1,0 +1,127 @@
+<view class="container">
+    <view class="mainContainer">
+        <view class="row">
+            <view class="avatar">
+                <image style="width: 40px; height: 40px;" src="../../image/avatar/1.jpeg">
+                </image>
+                <view style="display:inline-block;padding-left:10px;position:absolute">
+                    <view style="font-size:14px;padding-top:6px;">
+                        <text>Bonorum</text>
+                    </view>
+                    <view style="font-size:10px;padding-top:8px;">
+                        <text>Lorem ipsum dolor sit amet</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="hr"></view>
+        <view class="row">
+            <view class="avatar">
+                <image style="width: 40px; height: 40px;" src="../../image/avatar/2.jpeg">
+                </image>
+                <view style="display:inline-block;padding-left:10px;position:absolute">
+                    <view style="font-size:14px;padding-top:6px;">
+                        <text>Expetendis</text>
+                    </view>
+                    <view style="font-size:10px;padding-top:8px;">
+                        <text>singulis patrioque comprehensam nam no.</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="hr"></view>
+        <view class="row">
+            <view class="avatar">
+                <image style="width: 40px; height: 40px;" src="../../image/avatar/3.jpeg">
+                </image>
+                <view style="display:inline-block;padding-left:10px;position:absolute">
+                    <view style="font-size:14px;padding-top:6px;">
+                        <text>Antiopam</text>
+                    </view>
+                    <view style="font-size:10px;padding-top:8px;">
+                        <text> Mei cu dicat voluptaria volumus.</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="hr"></view>
+        <view class="row">
+            <view class="avatar">
+                <image style="width: 40px; height: 40px;" src="../../image/avatar/4.jpeg">
+                </image>
+                <view style="display:inline-block;padding-left:10px;position:absolute">
+                    <view style="font-size:14px;padding-top:6px;">
+                        <text>Sapientem</text>
+                    </view>
+                    <view style="font-size:10px;padding-top:8px;">
+                        <text>Lorem ipsum dolor sit amet, mutat graeco volumus ad eam,</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="hr"></view>
+        <view class="row">
+            <view class="avatar">
+                <image style="width: 40px; height: 40px;" src="../../image/avatar/5.jpeg">
+                </image>
+                <view style="display:inline-block;padding-left:10px;position:absolute">
+                    <view style="font-size:14px;padding-top:6px;">
+                        <text>Ubique</text>
+                    </view>
+                    <view style="font-size:10px;padding-top:8px;">
+                        <text>singulis patrioque comprehensam nam no. </text>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="hr"></view>
+        <view class="row">
+            <view class="avatar">
+                <image style="width: 40px; height: 40px;" src="../../image/avatar/6.jpeg">
+                </image>
+                <view style="display:inline-block;padding-left:10px;position:absolute">
+                    <view style="font-size:14px;padding-top:6px;">
+                        <text>Munere</text>
+                    </view>
+                    <view style="font-size:10px;padding-top:8px;">
+                        <text>Mei cu dicat voluptaria volumus.</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="hr"></view>
+        <view class="row">
+            <view class="avatar">
+                <image style="width: 40px; height: 40px;" src="../../image/avatar/7.png">
+                </image>
+                <view style="display:inline-block;padding-left:10px;position:absolute">
+                    <view style="font-size:14px;padding-top:6px;">
+                        <text>Voluptaria</text>
+                    </view>
+                    <view style="font-size:10px;padding-top:8px;">
+                        <text>Lorem ipsum dolor sit amet, mutat graeco volumus ad eam</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="hr"></view>
+        <view class="row">
+            <view class="avatar">
+                <image style="width: 40px; height: 40px;" src="../../image/avatar/8.jpg">
+                </image>
+                <view style="display:inline-block;padding-left:10px;position:absolute">
+                    <view style="font-size:14px;padding-top:6px;">
+                        <text>Ipsum</text>
+                    </view>
+                    <view style="font-size:10px;padding-top:8px;">
+                        <text>Lorem ipsum dolor sit amet, </text>
+                    </view>
+                </view>
+            </view>
+        </view>
+        
+    </view>
+    <view class="page-footer">
+        Copyright © 2016 校园拼
+    </view>
+</view>
